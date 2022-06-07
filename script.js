@@ -80,11 +80,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (optionOneId == optionTwoId) {
             alert("You Have Clicked The Same Card again");
-            cards[optionOneId].setAttribute('src', 'images/blank.png');
-            cards[optionTwoId].setAttribute('src', 'images/blank.png');
+            cards[optionOneId].setAttribute('src', 'Images/blank.png');
+            cards[optionTwoId].setAttribute('src', 'Images/blank.png');
         } else if (cardChosen[0] === cardChosen[1]) {
-            cards[optionOneId].setAttribute('src', 'images/white.png');
-            cards[optionTwoId].setAttribute('src', 'images/white.png');
+            cards[optionOneId].setAttribute('src', 'Images/white.png');
+            cards[optionTwoId].setAttribute('src', 'Images/white.png');
             cards[optionOneId].removeEventListener('click', flipCard);
             cards[optionTwoId].removeEventListener('click', flipCard);
             cardsWon.push(cardChosen);
