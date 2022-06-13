@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const optionTwoId = cardChosenId[1];
 
         if (optionOneId == optionTwoId) {
-            alert("You Have Clicked The Same Card again");
+            // alert("You Have Clicked The Same Card again");
             cards[optionOneId].setAttribute('src', 'Images/blank.png');
             cards[optionTwoId].setAttribute('src', 'Images/blank.png');
         } else if (cardChosen[0] === cardChosen[1]) {
